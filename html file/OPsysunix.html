@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+        body{
+        
+        background-image:url("nit.webp") ;
+        background-repeat:no-repeat;
+        background-attachment:fixed ;
+        background-size: 100% 100%;
+        }
+        </style>
+    
+<h1>OPERATING SYSTEMS (PCC-CS-403) + Lab (Unix) </h1>
+<h3>
+
+Introduction:
+<ul>
+<li>Concept of Operating Systems (OS) </li>
+<li>Generations of OS  </li>
+<li>Typesof OS </li>
+<li>OS Services </li>
+<li>Interrupt handling andSystem Calls </li>
+<li>Basic architectural concepts of an OS </li>
+<li>Concept of Virtual Machine, Resource Manager view </li> 
+<li>process view and hierarchical view of an OS  </li>
+</ul>
+Processes:
+<ul>
+<li>Definition</li> 
+<li>Process Relationship</li> 
+<li>Different states of a Process</li> 
+<li>Process Statetransitions </li>
+<li>Process Control Block (PCB) </li>
+<li>Context switching</li>
+</ul>  
+Thread:
+<ul>
+<li>Definition </li>
+<li>Various states </li>
+<li>Benefits of thread </li>
+<li>Types of threads </li>
+<li>Concept ofmultithreads</li>
+</ul> 
+ 
+Process Scheduling: 
+<ul>
+<li>Foundation and Scheduling objectives</li>
+</ul> 
+Types of Schedulers, Schedulingcriteria: 
+<ul>
+<li>CPU utilization </li>
+<li>Throughput</li> 
+<li>Turnaround Time</li> 
+<li>Waiting Time</li> 
+<li>Response Time</li> 
+</ul>
+
+Scheduling algorithms:
+<ul>
+<li>Pre-emptive and non-pre-emptive</li> 
+<li>FCFS</li> 
+<li>SJF</li>
+<li>RR</li> 
+</ul> 
+
+Multiprocessorscheduling:
+<UL>
+<LI>Real Time scheduling: RM and EDF</LI>
+</UL>
+Inter-process Communication:
+<UL>
+<LI>Concurrent processes</LI> 
+<LI>precedence graphs</LI>
+<LI>Critical Section</LI> 
+<LI>Race Conditions</LI> 
+<LI>Mutual Exclusion</LI>
+,LI>Hardware Solution
+<LI>Semaphores</LI>
+<LI>Strict Alternation</LI>
+<LI>Peterson’s Solution</LI> 
+<LI>The Producer / Consumer Problem</LI>
+<LI>Event Counters</LI> 
+<LI>Monitors</LI>
+<LI>Message Passing</LI>
+</UL> 
+
+Classical IPC Problems:
+<UL>
+<LI>Reader’s & Writer Problem</LI> 
+<LI>Dinning Philosopher Problem,Barber’s shop problem</LI>
+</UL>
+Deadlocks: 
+<ul>
+<li>Definition</li>
+<li>Necessary and sufficient conditions for Deadlock</li> 
+<li>DeadlockPrevention</li> 
+</ul> 
+Deadlock Avoidance:
+<ul>
+<li>Banker’s algorithm</li> 
+<li>Deadlock detection and Recovery</li>
+</ul> 
+ 
+Concurrent Programming:
+<ul>
+<li>Critical region </li>
+<li>conditional critical region</li>
+<li>monitors</li>
+<li>concurrent languages</li>
+<li>communicating sequential process (CSP)</li>
+<li>Deadlocks - prevention
+<li>avoidance</li> 
+<li>detection and recovery </li>
+</ul>
+Memory Management: 
+<li>Basic concept</li> 
+<li>Logical and Physical address maps</li>
+Memoryallocation: 
+<ul>
+<li>Contiguous Memory allocation – Fixed and variable partition–Internal and External fragmentation and Compaction</li>
+</ul>
+Virtual Memory: 
+<ul>
+<li>Basics of Virtual Memory – Hardware and control structures – Localityof reference</li> 
+<li>Page allocation</li> 
+<li>Partitioning<li>
+<li>Paging</li> 
+<li>Page fault</li>
+<li>Working Set</li> 
+<li>Segmentation</li> 
+<li>Demand paging</li> 
+</ul>
+PageReplacement algorithms: 
+<UL>
+<li>Optimal</li> 
+<li>First in First Out (FIFO)</li>
+<li>Second Chance (SC)</li>
+<li>Notrecently used (NRU) and Least Recently used (LRU)</li>
+</UL>
+ 
+I/O Hardware:
+<ul>
+<li>I/O devices</li> 
+<li>Device controllers</li>
+<li>Direct Memory Access</li> 
+<li>Principles of I/O</li> </ul> 
+File Management:
+<ul>
+<li>Concept of File</LI> 
+<li>Access methods</li> 
+<li>File types</li>
+<li>File operation</li> 
+<li>Directorystructure</li> 
+<li>File System structure</li> 
+<li>Allocation methods (contiguous, linked, indexed)</li>
+<li>Free-space management (bit vector, linked list, grouping)</li> 
+<li>directory implementation(linear list, hash table)</li>
+<LI>efficiency and performance</LI>
+</ul>  
+Disk Management: 
+<ul>
+<li>Disk structure</li> 
+<li>Disk scheduling - FCFS</li> 
+<li>SSTF</li>
+<li>SCAN</li> 
+<li>C-SCAN</li> 
+<li>Diskreliability</li> 
+<li>Disk formatting</li> 
+<li>Boot-block</li>
+<li>Bad blocks</li> 
+</ul>
+Case study:
+<ul>
+<li>UNIX OS file system</li>
+<li>shell</li>
+<li>filters</li>
+<li>shell programming</li> 
+<li>programming with the standard I/O</li> 
+<li>UNIX system calls</li>
+</ul>  
+</h3>
+<PRE>
+Text Books: 
+1. Operating System Concepts Essentials.Abraham Silberschatz, Peter Baer Galvin and Greg Gagne. 
+Reference Books: 
+1.	Operating Systems: Internals and Design Principles. William Stallings. 
+2.	Operating System: A Design-oriented Approach. Charles Patrick Crowley. 
+3.	Operating Systems: A Modern Perspective. Gary J. Nutt. 
+4.	Design of the Unix Operating Systems. Maurice J. Bach. 
+5.	Understanding the Linux Kernel, Daniel Pierre Bovet, Marco Cesati. 
+</PRE>
+</body>
+</html>
